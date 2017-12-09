@@ -116,6 +116,56 @@
     
 }//end clickPlus
 
+-(IBAction)clickMinus {
+    
+    [self processOp:'-'];
+    
+}//end clickMinus
+
+-(IBAction)clickMultiply {
+    
+    [self processOp:'*'];
+    
+}//end clickMultiply
+
+-(IBAction)clickDivide {
+    
+    [self processOp:'/'];
+    
+}//end clickDivide
+
+//Misc. keys
+
+-(IBAction)clickEquals {
+    
+    if (firstOperand == NO) {
+        [self storeFracPart];
+        [myCalculator performOperation:op];
+        
+        [displayString appendString: @" = "];
+        [displayString appendString:[myCalculator.accumulator convertToString]];
+        display.text = displayString;
+        
+        currentNumber = 0;
+        isNumerator = YES;
+        firstOperand = YES;
+        [displayString setString:@""];
+    }
+    
+}//end clickEquals
+
+-(IBAction)clickClear {
+    firstOperand = YES;
+    currentNumber = 0;
+    [myCalculator clear];
+    
+    [displayString setString:@""];
+    display.text = displayString;
+    
+    isNumerator = YES;
+    
+    
+}//end clickClear
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
