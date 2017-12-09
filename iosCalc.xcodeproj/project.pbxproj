@@ -15,6 +15,8 @@
 		2A0ED35B1FD4B5C100465A6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0ED35A1FD4B5C100465A6B /* main.m */; };
 		2A0ED3651FD4B5C200465A6B /* iosCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0ED3641FD4B5C200465A6B /* iosCalcTests.m */; };
 		2A0ED3701FD4B5C200465A6B /* iosCalcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0ED36F1FD4B5C200465A6B /* iosCalcUITests.m */; };
+		2A47C07D1FDC7A8800B6CF10 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C07C1FDC7A8800B6CF10 /* Fraction.m */; };
+		2A47C0801FDC7E7D00B6CF10 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A47C07F1FDC7E7D00B6CF10 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2A0ED36B1FD4B5C200465A6B /* iosCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0ED36F1FD4B5C200465A6B /* iosCalcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosCalcUITests.m; sourceTree = "<group>"; };
 		2A0ED3711FD4B5C200465A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A47C07B1FDC798800B6CF10 /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		2A47C07C1FDC7A8800B6CF10 /* Fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		2A47C07E1FDC7DC900B6CF10 /* Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		2A47C07F1FDC7E7D00B6CF10 /* Calculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				2A0ED3561FD4B5C100465A6B /* LaunchScreen.storyboard */,
 				2A0ED3591FD4B5C100465A6B /* Info.plist */,
 				2A0ED35A1FD4B5C100465A6B /* main.m */,
+				2A47C07B1FDC798800B6CF10 /* Fraction.h */,
+				2A47C07C1FDC7A8800B6CF10 /* Fraction.m */,
+				2A47C07E1FDC7DC900B6CF10 /* Calculator.h */,
+				2A47C07F1FDC7E7D00B6CF10 /* Calculator.m */,
 			);
 			path = iosCalc;
 			sourceTree = "<group>";
@@ -271,6 +281,8 @@
 				2A0ED3501FD4B5C100465A6B /* ViewController.m in Sources */,
 				2A0ED35B1FD4B5C100465A6B /* main.m in Sources */,
 				2A0ED34D1FD4B5C100465A6B /* AppDelegate.m in Sources */,
+				2A47C07D1FDC7A8800B6CF10 /* Fraction.m in Sources */,
+				2A47C0801FDC7E7D00B6CF10 /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

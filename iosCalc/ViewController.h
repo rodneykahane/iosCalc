@@ -16,7 +16,7 @@
 -(void) processOp: (char) theOp;
 -(void) storeFracPart;
 
-//numberic keys
+//numeric keys
 
 -(IBAction)clickDigit: (UIButton *) sender;
 
