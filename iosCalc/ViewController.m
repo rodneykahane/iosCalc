@@ -19,6 +19,7 @@
     int currentNumber;
     BOOL firstOperand, isNumerator;
     Calculator *myCalculator;
+    
     NSMutableString *displayString;
 }//end globals
 
@@ -145,7 +146,7 @@
         
         [displayString appendString: @" = "];
         [displayString appendString:[myCalculator.accumulator convertToString]];
-        display.text = displayString;
+        _display.text = displayString;
         
         currentNumber = 0;
         isNumerator = YES;

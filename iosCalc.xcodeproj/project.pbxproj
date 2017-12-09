@@ -111,15 +111,15 @@
 				2A0ED34C1FD4B5C100465A6B /* AppDelegate.m */,
 				2A0ED34E1FD4B5C100465A6B /* ViewController.h */,
 				2A0ED34F1FD4B5C100465A6B /* ViewController.m */,
+				2A47C07B1FDC798800B6CF10 /* Fraction.h */,
+				2A47C07C1FDC7A8800B6CF10 /* Fraction.m */,
+				2A47C07E1FDC7DC900B6CF10 /* Calculator.h */,
+				2A47C07F1FDC7E7D00B6CF10 /* Calculator.m */,
 				2A0ED3511FD4B5C100465A6B /* Main.storyboard */,
 				2A0ED3541FD4B5C100465A6B /* Assets.xcassets */,
 				2A0ED3561FD4B5C100465A6B /* LaunchScreen.storyboard */,
 				2A0ED3591FD4B5C100465A6B /* Info.plist */,
 				2A0ED35A1FD4B5C100465A6B /* main.m */,
-				2A47C07B1FDC798800B6CF10 /* Fraction.h */,
-				2A47C07C1FDC7A8800B6CF10 /* Fraction.m */,
-				2A47C07E1FDC7DC900B6CF10 /* Calculator.h */,
-				2A47C07F1FDC7E7D00B6CF10 /* Calculator.m */,
 			);
 			path = iosCalc;
 			sourceTree = "<group>";
