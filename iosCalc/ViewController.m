@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Calculator.h"
 
 @interface ViewController ()
 
@@ -38,7 +39,7 @@
     currentNumber = currentNumber * 10 + digit;
     
     [displayString appendString:[NSString stringWithFormat:@"%i",digit]];
-    display.text=displayString;
+    _display.text=displayString;
     
 }//end processDigit
 
@@ -76,7 +77,7 @@
     isNumerator = YES;
     
     [displayString appendString: opStr];
-    display.text = displayString;
+    _display.text = displayString;
     
 }//end processOp
 
@@ -107,7 +108,7 @@
     [self storeFracPart];
     isNumerator = NO;
     [displayString appendString: @"/"];
-    display.text = displayString;
+    _display.text = displayString;
 }//end clickOver
 
 -(IBAction)clickPlus {
@@ -160,7 +161,7 @@
     [myCalculator clear];
     
     [displayString setString:@""];
-    display.text = displayString;
+    _display.text = displayString;
     
     isNumerator = YES;
     
